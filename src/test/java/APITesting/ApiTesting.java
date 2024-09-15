@@ -1,3 +1,5 @@
+package APITesting;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

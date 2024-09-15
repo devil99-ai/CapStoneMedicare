@@ -49,16 +49,11 @@ public class MedicareApp_testingTestng {
 		pay=new Payment_webElement();
 		takeSnapshot=new takeSnapShot();
 		new SignUp_webElement();
-		
 		//driver setup and open url
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://localhost:12082/medicare_new");
-		
-		//POM setup
-		
-		
 		//logging setup
 		htmlReporter=new ExtentSparkReporter("C://Users//svksh//eclipse-workspace//MedicareTestingProject//src//test//reports//extentReport1.html");
 		extent = new ExtentReports();
@@ -143,9 +138,6 @@ public class MedicareApp_testingTestng {
 	}
 	@Test
 	public void validatingFailedLogin() throws Exception {
-		//Pom
-		//Logging
-		//test script
 		try {
 			driver.findElement(login.clickonlogin).click();
 			takeSnapShot.takeSnapShot1(driver, "Snapshot/pass_snapshot/login_page.png");
@@ -181,7 +173,6 @@ public class MedicareApp_testingTestng {
 				test1.fail("Failed in 2nd login attempt");
 			}
 		try {
-			
 			Thread.sleep(5000);
 			takeSnapShot.takeSnapShot1(driver, "Snapshot/pass_snapshot/homePage.png");
 			test1.pass("After login user successfully navigated to homepage");
