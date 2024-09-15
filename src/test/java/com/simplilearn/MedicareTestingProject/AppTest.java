@@ -63,7 +63,7 @@ public class AppTest {
 			driver.findElement(signUp.sign_up).click();
 			driver.findElement(signUp.fill_first_name).sendKeys("souvik");
 			driver.findElement(signUp.fill_last_name).sendKeys("sharma");
-			driver.findElement(signUp.fill_email).sendKeys("jhonnySins@example.com");
+			driver.findElement(signUp.fill_email).sendKeys("jhoncarter@example.com");
 			driver.findElement(signUp.fill_password).sendKeys("Souvik99@");
 			driver.findElement(signUp.fill_confirm_password).sendKeys("Souvik99@");
 			driver.findElement(signUp.fill_phone).sendKeys("9876543210");
@@ -127,7 +127,7 @@ public class AppTest {
 			driver.findElement(login.clickonlogin).click();
 			takeSnapShot.takeSnapShot1(driver, "Snapshot/pass_snapshot/login_page.png");
 			driver.findElement(login.fill_email).sendKeys("svjshrm@fafaf.ccc");
-			driver.findElement(login.fill_password).sendKeys("Souvik98@");
+			driver.findElement(login.fill_password).sendKeys("Souvik@");
 			takeSnapShot.takeSnapShot1(driver, "Snapshot/pass_snapshot/login_deatils_filling.png");
 			driver.findElement(login.click_on_submit).click();
 			takeSnapShot.takeSnapShot1(driver, "Snapshot/pass_snapshot/loginFailed.png");
@@ -143,17 +143,6 @@ public class AppTest {
 			Assert.assertEquals(alertMessage, "Username and Password is invalid!");
 			System.out.println(alertMessage);
 			Thread.sleep(5000);
-
-//		try {
-//			driver.navigate().to("http://localhost:8084/medicare_new");
-//			driver.findElement(login.click_on_login).click();
-//			Thread.sleep(5000);
-//			takeSnapShot.takeSnapShot1(driver, "Snapshot/pass_snapshot/login_page.png");
-//		} catch (Exception e) {
-//			// TODO: handle exception
-//			e.printStackTrace();
-//			takeSnapShot.takeSnapShot1(driver, "Snapshot/Failed_snapshot/not_in_login.png");
-//		}
 		try {
 			driver.findElement(login.fill_email).sendKeys("johnflex@example.com");
 			driver.findElement(login.fill_password).sendKeys("Souvik99@");
