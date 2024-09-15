@@ -75,7 +75,7 @@ public class MedicareApp_testingTestng {
 			driver.findElement(signUp.sign_up).click();
 			driver.findElement(signUp.fill_first_name).sendKeys("souvik");
 			driver.findElement(signUp.fill_last_name).sendKeys("sharma");
-			driver.findElement(signUp.fill_email).sendKeys("souvik@sjllharggmaciiqckkkkkqbqkknnqvfkkaoggokka.clom");
+			driver.findElement(signUp.fill_email).sendKeys("johnsn@examle.com");
 			driver.findElement(signUp.fill_password).sendKeys("Souvik99@");
 			driver.findElement(signUp.fill_confirm_password).sendKeys("Souvik99@");
 			driver.findElement(signUp.fill_phone).sendKeys("9876543210");

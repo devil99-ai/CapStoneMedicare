@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-15T08:50:49 IST" name="Suite" finished-at="2024-09-15T08:52:05 IST" duration-ms="75796">
+  <suite started-at="2024-09-15T09:06:12 IST" name="Suite" finished-at="2024-09-15T09:07:16 IST" duration-ms="64418">
     <groups>
     </groups>
-    <test started-at="2024-09-15T08:50:49 IST" name="Test" finished-at="2024-09-15T08:52:05 IST" duration-ms="75796">
+    <test started-at="2024-09-15T09:06:12 IST" name="Test" finished-at="2024-09-15T09:07:16 IST" duration-ms="64418">
       <class name="com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng@305ffe9e]" started-at="2024-09-15T08:51:38 IST" name="setUp" finished-at="2024-09-15T08:51:40 IST" duration-ms="2325" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng@305ffe9e]" started-at="2024-09-15T09:06:54 IST" name="setUp" finished-at="2024-09-15T09:06:56 IST" duration-ms="1816" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="AddProductsToCart()[pri:0, instance:com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng@305ffe9e]" started-at="2024-09-15T08:51:40 IST" name="AddProductsToCart" finished-at="2024-09-15T08:51:47 IST" duration-ms="7186" status="PASS">
+        <test-method signature="AddProductsToCart()[pri:0, instance:com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng@305ffe9e]" started-at="2024-09-15T09:06:56 IST" name="AddProductsToCart" finished-at="2024-09-15T09:06:58 IST" duration-ms="1882" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddProductsToCart -->
-        <test-method signature="SignUpValidationTest()[pri:0, instance:com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng@305ffe9e]" started-at="2024-09-15T08:51:47 IST" name="SignUpValidationTest" finished-at="2024-09-15T08:51:58 IST" duration-ms="11106" status="FAIL">
+        <test-method signature="SignUpValidationTest()[pri:0, instance:com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng@305ffe9e]" started-at="2024-09-15T09:06:58 IST" name="SignUpValidationTest" finished-at="2024-09-15T09:07:09 IST" duration-ms="11455" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[user able to register successfully expected [Medicare - Membership] but found [Medicare - Login]]]>
+              <![CDATA[user able to register successfully expected [Medicare - Membership] but found [Medicare - Home]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: user able to register successfully expected [Medicare - Membership] but found [Medicare - Login]
+              <![CDATA[java.lang.AssertionError: user able to register successfully expected [Medicare - Membership] but found [Medicare - Home]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -62,50 +62,28 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignUpValidationTest -->
-        <test-method signature="SuccessfulLiginTest()[pri:0, instance:com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng@305ffe9e]" started-at="2024-09-15T08:51:58 IST" name="SuccessfulLiginTest" finished-at="2024-09-15T08:52:04 IST" duration-ms="5905" status="PASS">
+        <test-method signature="SuccessfulLiginTest()[pri:0, instance:com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng@305ffe9e]" started-at="2024-09-15T09:07:09 IST" name="SuccessfulLiginTest" finished-at="2024-09-15T09:07:14 IST" duration-ms="5337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SuccessfulLiginTest -->
-        <test-method signature="validatingFailedLogin()[pri:0, instance:com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng@305ffe9e]" started-at="2024-09-15T08:52:04 IST" name="validatingFailedLogin" finished-at="2024-09-15T08:52:04 IST" duration-ms="171" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="validatingFailedLogin()[pri:0, instance:com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng@305ffe9e]" started-at="2024-09-15T09:07:14 IST" name="validatingFailedLogin" finished-at="2024-09-15T09:07:15 IST" duration-ms="996" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div[1]/div/div[1]/div/div"}
-  (Session info: chrome=128.0.6613.137)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.24.0', revision: '748ffc9bc3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ed40dcfccbd1c889885b58f8e78be7df, findElement {using=xpath, value=/html/body/div/div[1]/div/div[1]/div/div}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.137, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\svksh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61413}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61413/devtoo..., se:cdpVersion: 128.0.6613.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ed40dcfccbd1c889885b58f8e78be7df]]>
+              <![CDATA[expected [Username and Password is invalid!] but found [Antipyretics
+Analgesics
+Antibiotics]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div[1]/div/div[1]/div/div"}
-  (Session info: chrome=128.0.6613.137)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.24.0', revision: '748ffc9bc3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ed40dcfccbd1c889885b58f8e78be7df, findElement {using=xpath, value=/html/body/div/div[1]/div/div[1]/div/div}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.137, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\svksh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61413}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61413/devtoo..., se:cdpVersion: 128.0.6613.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ed40dcfccbd1c889885b58f8e78be7df
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng.validatingFailedLogin(MedicareApp_testingTestng.java:157)
+              <![CDATA[java.lang.AssertionError: expected [Username and Password is invalid!] but found [Antipyretics
+Analgesics
+Antibiotics]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng.validatingFailedLogin(MedicareApp_testingTestng.java:158)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -136,35 +114,35 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatingFailedLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng@305ffe9e]" started-at="2024-09-15T08:52:04 IST" name="tearDown" finished-at="2024-09-15T08:52:05 IST" duration-ms="366" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng@305ffe9e]" started-at="2024-09-15T09:07:15 IST" name="tearDown" finished-at="2024-09-15T09:07:16 IST" duration-ms="519" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng -->
       <class name="APITesting.ApiTesting">
-        <test-method signature="validateResponseContent()[pri:0, instance:APITesting.ApiTesting@302c971f]" started-at="2024-09-15T08:51:35 IST" name="validateResponseContent" finished-at="2024-09-15T08:51:38 IST" duration-ms="2160" status="PASS">
+        <test-method signature="validateResponseContent()[pri:0, instance:APITesting.ApiTesting@302c971f]" started-at="2024-09-15T09:06:52 IST" name="validateResponseContent" finished-at="2024-09-15T09:06:54 IST" duration-ms="1595" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateResponseContent -->
-        <test-method signature="validatingResponseCode()[pri:0, instance:APITesting.ApiTesting@302c971f]" started-at="2024-09-15T08:51:38 IST" name="validatingResponseCode" finished-at="2024-09-15T08:51:38 IST" duration-ms="46" status="PASS">
+        <test-method signature="validatingResponseCode()[pri:0, instance:APITesting.ApiTesting@302c971f]" started-at="2024-09-15T09:06:54 IST" name="validatingResponseCode" finished-at="2024-09-15T09:06:54 IST" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatingResponseCode -->
       </class> <!-- APITesting.ApiTesting -->
       <class name="com.simplilearn.MedicareTestingProject.AppTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplilearn.MedicareTestingProject.AppTest@6d60fe40]" started-at="2024-09-15T08:50:49 IST" name="setUp" finished-at="2024-09-15T08:50:54 IST" duration-ms="4444" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplilearn.MedicareTestingProject.AppTest@6d60fe40]" started-at="2024-09-15T09:06:12 IST" name="setUp" finished-at="2024-09-15T09:06:15 IST" duration-ms="2719" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSignInMethod()[pri:0, instance:com.simplilearn.MedicareTestingProject.AppTest@6d60fe40]" started-at="2024-09-15T08:50:54 IST" name="testSignInMethod" finished-at="2024-09-15T08:51:35 IST" duration-ms="41809" status="PASS">
+        <test-method signature="testSignInMethod()[pri:0, instance:com.simplilearn.MedicareTestingProject.AppTest@6d60fe40]" started-at="2024-09-15T09:06:15 IST" name="testSignInMethod" finished-at="2024-09-15T09:06:52 IST" duration-ms="37660" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignInMethod -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:com.simplilearn.MedicareTestingProject.AppTest@6d60fe40]" started-at="2024-09-15T08:52:05 IST" name="endTest" finished-at="2024-09-15T08:52:05 IST" duration-ms="199" status="FAIL">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.simplilearn.MedicareTestingProject.AppTest@6d60fe40]" started-at="2024-09-15T09:07:16 IST" name="endTest" finished-at="2024-09-15T09:07:16 IST" duration-ms="334" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[Session ID is null. Using WebDriver after calling quit()?
@@ -172,7 +150,7 @@ Build info: version: '4.24.0', revision: '748ffc9bc3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.137, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\svksh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60467/devtoo..., se:cdpVersion: 128.0.6613.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.137, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\svksh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63678}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63678/devtoo..., se:cdpVersion: 128.0.6613.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
@@ -180,7 +158,7 @@ Build info: version: '4.24.0', revision: '748ffc9bc3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.137, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\svksh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60467/devtoo..., se:cdpVersion: 128.0.6613.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.137, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\svksh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63678}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63678/devtoo..., se:cdpVersion: 128.0.6613.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
