@@ -63,7 +63,7 @@ public class AppTest {
 			driver.findElement(signUp.sign_up).click();
 			driver.findElement(signUp.fill_first_name).sendKeys("souvik");
 			driver.findElement(signUp.fill_last_name).sendKeys("sharma");
-			driver.findElement(signUp.fill_email).sendKeys("johnsnow@example.com");
+			driver.findElement(signUp.fill_email).sendKeys("johnflex@example.com");
 			driver.findElement(signUp.fill_password).sendKeys("Souvik99@");
 			driver.findElement(signUp.fill_confirm_password).sendKeys("Souvik99@");
 			driver.findElement(signUp.fill_phone).sendKeys("9876543210");
@@ -126,7 +126,7 @@ public class AppTest {
 		try {
 			driver.findElement(login.clickonlogin).click();
 			takeSnapShot.takeSnapShot1(driver, "Snapshot/pass_snapshot/login_page.png");
-			driver.findElement(login.fill_email).sendKeys("svjshrm@faff.ccc");
+			driver.findElement(login.fill_email).sendKeys("svjshrm@fafaf.ccc");
 			driver.findElement(login.fill_password).sendKeys("Souvik98@");
 			takeSnapShot.takeSnapShot1(driver, "Snapshot/pass_snapshot/login_deatils_filling.png");
 			driver.findElement(login.click_on_submit).click();
@@ -155,7 +155,7 @@ public class AppTest {
 //			takeSnapShot.takeSnapShot1(driver, "Snapshot/Failed_snapshot/not_in_login.png");
 //		}
 		try {
-			driver.findElement(login.fill_email).sendKeys("svkshrm@gmail.com");
+			driver.findElement(login.fill_email).sendKeys("johnflex@example.com");
 			driver.findElement(login.fill_password).sendKeys("Souvik99@");
 			driver.findElement(login.click_on_submit).click();
 			takeSnapShot.takeSnapShot1(driver, "Snapshot/pass_snapshot/able_to_fill_details.png");
@@ -204,6 +204,7 @@ public class AppTest {
 			test1.fail("Failed to add item");
 		}
 		try {
+			Thread.sleep(5000);
 			driver.findElement(add.continue_shopping_btn);
 			driver.findElement(add.product_2_Add_cart).click();
 			Thread.sleep(5000);
@@ -222,7 +223,6 @@ public class AppTest {
 	}
 	@AfterTest
 	public void endTest() {
-		driver.quit();
 		driver.close();
 	}
 	

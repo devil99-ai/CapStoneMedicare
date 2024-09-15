@@ -8,40 +8,11 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">64,418</td><td></td><td></td></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">45,846</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.simplilearn.MedicareTestingProject.AppTest</td><td><a href="#m0">endTest</a></td><td rowspan="1">1726371436415</td><td rowspan="1">334</td></tr><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng</td><td><a href="#m1">SignUpValidationTest</a></td><td rowspan="1">1726371418095</td><td rowspan="1">11455</td></tr><tr class="failedeven"><td><a href="#m2">validatingFailedLogin</a></td><td rowspan="1">1726371434896</td><td rowspan="1">996</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">APITesting.ApiTesting</td><td><a href="#m3">validateResponseContent</a></td><td rowspan="1">1726371412757</td><td rowspan="1">1595</td></tr><tr class="passedeven"><td><a href="#m4">validatingResponseCode</a></td><td rowspan="1">1726371414355</td><td rowspan="1">34</td></tr><tr class="passedodd"><td rowspan="1">com.simplilearn.MedicareTestingProject.AppTest</td><td><a href="#m5">testSignInMethod</a></td><td rowspan="1">1726371375090</td><td rowspan="1">37660</td></tr><tr class="passedeven"><td rowspan="2">com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng</td><td><a href="#m6">AddProductsToCart</a></td><td rowspan="1">1726371416208</td><td rowspan="1">1882</td></tr><tr class="passedeven"><td><a href="#m7">SuccessfulLiginTest</a></td><td rowspan="1">1726371429554</td><td rowspan="1">5337</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.simplilearn.MedicareTestingProject.AppTest</td><td><a href="#m0">testSignInMethod</a></td><td rowspan="1">1726376790645</td><td rowspan="1">43199</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.simplilearn.MedicareTestingProject.AppTest#endTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.137, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\svksh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63678}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63678/devtoo..., se:cdpVersion: 128.0.6613.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
-	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:418)
-	at com.simplilearn.MedicareTestingProject.AppTest.endTest(AppTest.java:226)
-... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng#SignUpValidationTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: user able to register successfully expected [Medicare - Membership] but found [Medicare - Home]
-	at com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng.SignUpValidationTest(MedicareApp_testingTestng.java:136)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng#validatingFailedLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Username and Password is invalid!] but found [Antipyretics
-Analgesics
-Antibiotics]
-	at com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng.validatingFailedLogin(MedicareApp_testingTestng.java:158)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">APITesting.ApiTesting#validateResponseContent</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">APITesting.ApiTesting#validatingResponseCode</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.simplilearn.MedicareTestingProject.AppTest#testSignInMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng#AddProductsToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng#SuccessfulLiginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">com.simplilearn.MedicareTestingProject.AppTest#testSignInMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

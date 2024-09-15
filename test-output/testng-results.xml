@@ -1,203 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-15T09:06:12 IST" name="Suite" finished-at="2024-09-15T09:07:16 IST" duration-ms="64418">
+  <suite started-at="2024-09-15T10:36:28 IST" name="Default suite" finished-at="2024-09-15T10:37:14 IST" duration-ms="45846">
     <groups>
     </groups>
-    <test started-at="2024-09-15T09:06:12 IST" name="Test" finished-at="2024-09-15T09:07:16 IST" duration-ms="64418">
-      <class name="com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng@305ffe9e]" started-at="2024-09-15T09:06:54 IST" name="setUp" finished-at="2024-09-15T09:06:56 IST" duration-ms="1816" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="AddProductsToCart()[pri:0, instance:com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng@305ffe9e]" started-at="2024-09-15T09:06:56 IST" name="AddProductsToCart" finished-at="2024-09-15T09:06:58 IST" duration-ms="1882" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AddProductsToCart -->
-        <test-method signature="SignUpValidationTest()[pri:0, instance:com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng@305ffe9e]" started-at="2024-09-15T09:06:58 IST" name="SignUpValidationTest" finished-at="2024-09-15T09:07:09 IST" duration-ms="11455" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[user able to register successfully expected [Medicare - Membership] but found [Medicare - Home]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: user able to register successfully expected [Medicare - Membership] but found [Medicare - Home]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng.SignUpValidationTest(MedicareApp_testingTestng.java:136)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SignUpValidationTest -->
-        <test-method signature="SuccessfulLiginTest()[pri:0, instance:com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng@305ffe9e]" started-at="2024-09-15T09:07:09 IST" name="SuccessfulLiginTest" finished-at="2024-09-15T09:07:14 IST" duration-ms="5337" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SuccessfulLiginTest -->
-        <test-method signature="validatingFailedLogin()[pri:0, instance:com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng@305ffe9e]" started-at="2024-09-15T09:07:14 IST" name="validatingFailedLogin" finished-at="2024-09-15T09:07:15 IST" duration-ms="996" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Username and Password is invalid!] but found [Antipyretics
-Analgesics
-Antibiotics]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Username and Password is invalid!] but found [Antipyretics
-Analgesics
-Antibiotics]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng.validatingFailedLogin(MedicareApp_testingTestng.java:158)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validatingFailedLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng@305ffe9e]" started-at="2024-09-15T09:07:15 IST" name="tearDown" finished-at="2024-09-15T09:07:16 IST" duration-ms="519" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng -->
-      <class name="APITesting.ApiTesting">
-        <test-method signature="validateResponseContent()[pri:0, instance:APITesting.ApiTesting@302c971f]" started-at="2024-09-15T09:06:52 IST" name="validateResponseContent" finished-at="2024-09-15T09:06:54 IST" duration-ms="1595" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateResponseContent -->
-        <test-method signature="validatingResponseCode()[pri:0, instance:APITesting.ApiTesting@302c971f]" started-at="2024-09-15T09:06:54 IST" name="validatingResponseCode" finished-at="2024-09-15T09:06:54 IST" duration-ms="34" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validatingResponseCode -->
-      </class> <!-- APITesting.ApiTesting -->
+    <test started-at="2024-09-15T10:36:28 IST" name="Default test" finished-at="2024-09-15T10:37:14 IST" duration-ms="45846">
       <class name="com.simplilearn.MedicareTestingProject.AppTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplilearn.MedicareTestingProject.AppTest@6d60fe40]" started-at="2024-09-15T09:06:12 IST" name="setUp" finished-at="2024-09-15T09:06:15 IST" duration-ms="2719" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplilearn.MedicareTestingProject.AppTest@16eb3ea3]" started-at="2024-09-15T10:36:28 IST" name="setUp" finished-at="2024-09-15T10:36:30 IST" duration-ms="2454" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSignInMethod()[pri:0, instance:com.simplilearn.MedicareTestingProject.AppTest@6d60fe40]" started-at="2024-09-15T09:06:15 IST" name="testSignInMethod" finished-at="2024-09-15T09:06:52 IST" duration-ms="37660" status="PASS">
+        <test-method signature="testSignInMethod()[pri:0, instance:com.simplilearn.MedicareTestingProject.AppTest@16eb3ea3]" started-at="2024-09-15T10:36:30 IST" name="testSignInMethod" finished-at="2024-09-15T10:37:13 IST" duration-ms="43199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignInMethod -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:com.simplilearn.MedicareTestingProject.AppTest@6d60fe40]" started-at="2024-09-15T09:07:16 IST" name="endTest" finished-at="2024-09-15T09:07:16 IST" duration-ms="334" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.24.0', revision: '748ffc9bc3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.137, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\svksh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63678}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63678/devtoo..., se:cdpVersion: 128.0.6613.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.24.0', revision: '748ffc9bc3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.137, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\svksh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63678}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63678/devtoo..., se:cdpVersion: 128.0.6613.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:418)
-at com.simplilearn.MedicareTestingProject.AppTest.endTest(AppTest.java:226)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
-at org.testng.TestRunner.afterRun(TestRunner.java:818)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.simplilearn.MedicareTestingProject.AppTest@16eb3ea3]" started-at="2024-09-15T10:37:13 IST" name="endTest" finished-at="2024-09-15T10:37:14 IST" duration-ms="150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- com.simplilearn.MedicareTestingProject.AppTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

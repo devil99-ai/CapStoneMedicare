@@ -3,16 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng">
+      <class name="com.simplilearn.MedicareTestingProject.AppTest">
         <methods>
-          <include name="SignUpValidationTest"/>
-          <include name="validatingFailedLogin"/>
           <include name="setUp"/>
-          <include name="AddProductsToCart"/>
-          <include name="SuccessfulLiginTest"/>
-          <include name="tearDown"/>
+          <include name="endTest"/>
+          <include name="testSignInMethod"/>
         </methods>
-      </class> <!-- com.simplilearn.MedicareTestingProject.MedicareApp_testingTestng -->
+      </class> <!-- com.simplilearn.MedicareTestingProject.AppTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
